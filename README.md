@@ -8,13 +8,13 @@ Our services are delivered on a multi tenant high volume SaaS platform build on 
 
 The platform is primarily API driven. Clients access the platform via direct API, SFTP file transfers and via web UI.
 
-All APIs are [JSONAPI](jsonapi.org) conformant implementing a standard RESTful interface.
+All APIs are [JSONAPI](https://jsonapi.org) conformant implementing a standard RESTful interface.
 
 The web UI is built on Angular. The platform is deployed on Kubernetes.
 
-As with any complex application, consistent implementations, DRY code and reusability is critically important.
+As with any complex application, consistent implementations, DRY code and reusability are critically important.
 
-[SOLID](https://en.wikipedia.org/wiki/SOLID) design principles and TDD are also very important
+Following [SOLID](https://en.wikipedia.org/wiki/SOLID) design principles and TDD are also very important.
 
 As this is a platform serving multiple clients, code needs to make as few assumptions as possible.
 
@@ -22,7 +22,7 @@ Methods should be very flexible in their implementation and chaining them should
 
 ## Business context
 
-The platform offers clients the ability to create rewards for their end users based on transactions the user conducts on the platform
+At it's most basic, the platform offers clients the ability to create rewards for their end users based on transactions the user conducts on the platform
 A simple use case is:
 1. For every $100 the end user spends they receive 10 points
 2. If the customer accumulates 100 points in one calendar month they are given a reward, a free coffee
@@ -38,11 +38,14 @@ A hypothetical client has the following requirements:
 4. For every $100 the end user spends they receive 10 points
 5. If the customer accumulates 100 points in one calendar month they are given a reward, a free coffee
 6. If the customer spends any amount of money in a foreign country they receive 2x the standard points
+7. Give a 4x Airport Lounge Access Reward when a user becomes a gold tier customer
+8. Create a free coffee reward to all users during their birthday month
 
 ## Extended Requirements
 
-1. Give a 4x Airport Lounge Access Reward when a user becomes a gold tier customer
-2. Create a free coffee reward to all users during their birthday month
+1. Give free movie tickets reward for new users when their spending is > $1000 within 60 days of their first transaction
+2. 5% cash rebate reward for 10 or more transactions that have an amount > $100
+3. Every calendar quarterly give 100 bonus points for any user spending greater than $2000 in that quarter
 
 ## Your Task
 
@@ -50,7 +53,7 @@ Implement an RoR based solution that implements the <b>Basic Requirements</b>. Y
 taking into account the technical context described at the top of this document. For example, given that it is a high volume environment, ensuring
 data integrity is paramount. Appropriate tests are necessary. That kind of thing.
 
-Use seed files to create users, tiers, transactions and rewards. It should be possible to run `rails db:seed` and have all the use cases manifest
+Use seed files to create users, tiers, transactions, rewards and any other models necessary. It should be possible to run `rails db:seed` and have all the use cases manifest
 
 If you need to do research, include a comment in the code with a URL to the document you referenced.
 Not an exhaustive list, just include a single reference.
