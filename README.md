@@ -64,6 +64,7 @@ If you feel that explaining a design choice would help clarify the chosen soluti
 It is enough to build out the application, but if you feel inclined, we would be happy to see any or all of the following:
 
 1. Implementation of the Extended Requirements
+2. Generate OpenAPI V3 documentation for the API
 2. Implementation of a basic SDK that interfaces with the API
 3. Postman collection that interacts with the API
 4. Basic angular app that consumes the API
