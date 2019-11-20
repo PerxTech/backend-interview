@@ -30,13 +30,13 @@ End users use their points to claim/purchase rewards offered by the client.
 **Level 1**
 
 1. A standard tier customer is an end user who accumulates 0 points
-2. A gold tier customer is an end user who accumelates 1000 points
+2. A gold tier customer is an end user who accumulates 1000 points
 3. A platinum tier customer is an end user who accumulates 5000 points
 
 **Level 2**
 
 1. Points expire every year
-2. Loyalty tiers are calcualted on the highest points in the last 2 cycles
+2. Loyalty tiers are calculated on the highest points in the last 2 cycles
 2. Give 4x Airport Lounge Access Reward when a user becomes a gold tier customer
 3. Every calendar quarterly give 100 bonus points for any user spending greater than $2000 in that quarter
 
