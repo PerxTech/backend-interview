@@ -3,7 +3,7 @@
 At it's most basic, the platform offers clients the ability to issue loyalty points to their end users.
 End users use their points to claim/purchase rewards offered by the client.
 
-## Points
+## Point Earning Rules
 
 **Level 1**
 
@@ -13,7 +13,7 @@ End users use their points to claim/purchase rewards offered by the client.
 
 1. If the end user spends any amount of money in a foreign country they receive 2x the standard points
 
-## Issuing rewards
+## Issuing Rewards Rules
 
 **Level 1**
 
@@ -25,7 +25,7 @@ End users use their points to claim/purchase rewards offered by the client.
 2. A 5% Cash Rebate reward is given to all users who have 10 or more transactions that have an amount > $100
 3. A Free Movie Tickets reward is given to new users when their spending is > $1000 within 60 days of their first transaction
 
-## Loyalty tiers
+## Loyalty Rules
 
 **Level 1**
 
@@ -42,6 +42,9 @@ End users use their points to claim/purchase rewards offered by the client.
 
 ## Evaluation
 
+You are expected to create a git repository (in github or equivalent) and share the repository details with us.
+The way you manage your commits is up to you, but we would like to have the opportunity to see how is
+your workflow like.
 Your code will be evaluated more on the quality than on completing the scope.
 Our production environment is a high volume environment, we are required to maintain data integrity and performance throughout.
 Please provide appropriate tests.
